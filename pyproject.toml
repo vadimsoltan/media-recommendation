@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "media-recommendation"
+version = "0.1.0"
+description = "A service that provides recommendations for movies, shows, music, books, and other media based on your preferences."
+authors = ["Vadim <soltan.vadim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.2"
+SQLAlchemy = "^2.0.27"
+pydantic = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
